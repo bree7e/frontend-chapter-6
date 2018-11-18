@@ -13,14 +13,16 @@
   },
   "bugs": {
     "url": "https://github.com/bree7e/frontend-chapter-6/issues"
-  },"license": "MIT",
+  },
+  "license": "MIT",
   "files": [
     "pictures/**",
     "index.html",
     "LICENSE.md",
     "README.md"
-  ], 
+  ],
   "dependencies": {
+    "rxjs": "^6.3.3",
     "shower-core": "^2.1.0",
     "shower-isp": "https://github.com/bree7e/shower-isp.git"
   },
