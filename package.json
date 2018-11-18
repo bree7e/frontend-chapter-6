@@ -1,35 +1,28 @@
 {
-  "name": "shower",
-  "description": "Shower HTML presentation engine",
-  "version": "2.6.4",
+  "name": "tech-chapter6",
+  "description": "6 лекция по frontend'у в рамках обучения студентов ИРНИТУ от компании ISPsystem",
+  "version": "1.0.0",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "https://pepelsbey.net/"
+    "name": "Alexandr Vetrov",
+    "url": "https://tyapk.ru/"
   },
-  "homepage": "https://github.com/shower/shower",
+  "homepage": "https://github.com/bree7e/frontend-chapter-6#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/shower.git"
+    "url": "git://git@github.com/bree7e/frontend-chapter-6.git"
   },
   "bugs": {
-    "url": "http://github.com/shower/shower/issues"
-  },
-  "license": "MIT",
-  "keywords": [
-    "shower",
-    "presentation",
-    "template"
-  ],
+    "url": "https://github.com/bree7e/frontend-chapter-6/issues"
+  },"license": "MIT",
   "files": [
     "pictures/**",
     "index.html",
     "LICENSE.md",
     "README.md"
-  ],
+  ], 
   "dependencies": {
     "shower-core": "^2.1.0",
-    "shower-material": "^2.1.4",
-    "shower-ribbon": "^3.1.4"
+    "shower-isp": "https://github.com/bree7e/shower-isp.git"
   },
   "devDependencies": {
     "browser-sync": "^2.24.7",
